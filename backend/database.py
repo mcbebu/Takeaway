@@ -12,12 +12,12 @@ mydb = mysql.connect(
 
 my_cursor = mydb.cursor()
 
-sql = "INSERT INTO user (name, address) VALUES (%s, %s)"
+sql = "INSERT INTO user (name, start_point, end_point ) VALUES (%s, %s, %s)"
 mock_data = [
-    ('Peter', '111 Yew Tee Street'),
-    ('Jia Wei', '112 Boon Keng Street'),
-    ('Dai Wei', '113 Cooperation Street'),
-    ('Wei Jun', '114 Pasir Tee Street')
+    ('Peter', '111 Yew Tee Street', 'Yew Tee Point'),
+    ('Jia Wei', '112 Boon Keng Street', 'Alperia Mall'),
+    ('Dai Wei', '113 Cooperation Street', 'Jurong Point'),
+    ('Wei Jun', '114 Pasir Tee Street', 'White Sands')
 
 ]
 
