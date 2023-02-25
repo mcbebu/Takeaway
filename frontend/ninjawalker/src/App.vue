@@ -1,16 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import NavbarComponent from './components/NavbarComponent.vue';
 </script>
 
 <template>
   <header>
-    <div class="wrapper">
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
+<NavbarComponent/>
   </header>
 
   <RouterView />
@@ -35,7 +30,7 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: white
 }
 
 nav a.router-link-exact-active:hover {
