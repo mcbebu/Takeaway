@@ -1,5 +1,5 @@
 <script setup>
-import LiveChatView from '../views/LiveChatView.vue';
+import LiveChatView from '../components/LiveChatView.vue';
 </script>
 
 <template>
