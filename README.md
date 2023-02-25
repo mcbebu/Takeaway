@@ -9,6 +9,3 @@
 - (if possible): hosted on Huawei Cloud 
 - A simple Vue-Flask application
 - Requires use of <type of database> database
-
-## Technologies used
-- Socket IO Chat mock up adapted using MIT licensed code: https://github.com/ZineddineBk09/Private-Chat-with-SocketIO.JS?ref=vuejsexamples.com 
