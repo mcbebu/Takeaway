@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import StatusIcon from "./StatusIcon";
+import StatusIcon from "./StatusIcon.vue";
 
 export default {
   name: "MessagePanel",

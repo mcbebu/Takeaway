@@ -11,7 +11,7 @@
             <a class="nav-link active"><RouterLink to="/">Home</RouterLink></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Try Now</a>
+            <a class="nav-link"><RouterLink to="/livechat">Live Chat</RouterLink></a>
             </li>
         </ul>
        
