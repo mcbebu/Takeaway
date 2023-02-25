@@ -2,7 +2,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img class="runningninja" src="images/runningninja.png" alt="" /> NinjaWalk</a
+          <img class="runningninja" src="../assets/img/runningninja.png" alt="" /> NinjaWalk</a
         >
         <button
           class="navbar-toggler"
@@ -57,5 +57,8 @@ name: 'NavbarComponent'
 </script>
 
 <style>
-
+.runningninja {
+    width:25px;
+    height:25px;
+}
 </style>
